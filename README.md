@@ -1,39 +1,150 @@
 # Digital Visiting Card
 
-A clean, modern, and responsive digital visiting card built using HTML, CSS, and JavaScript. Perfect for showcasing your personal or professional profile with theme toggle, download, and share features.
-
----
+A sleek, responsive digital visiting card you can fully customize and deploy for yourself. This project is ideal for showcasing your basic contact info and links in a clean one-page format.
 
 ## Features
 
-- **Responsive Design** (Mobile-First)
-- **Dark/Light Theme Toggle**
-- **Profile Picture with Cover Image**
-- **Call & Email Buttons**
-- **Contact Information Visible**
-- **Social Media Icons** (GitHub, AniList, Discord)
-- **About Me Section**
-- **Download Info Button** (`info.txt`)
-- **Share Button**
-- **Clean UI and Mobile-Optimized**
+- Mobile-first, fully responsive layout
+- Theme toggle (Light/Dark mode)
+- Profile photo + cover banner
+- Call & Email button
+- Download contact info
+- Share button
+- About section
+- Footer with location
+- Hosted-friendly (Netlify/others)
+- Easy to customize
 
 ---
 
-## Live Preview
+## Demo
 
-> [Click here to preview](https://profile-bio.netlify.app/)  
-*(Replace with your actual live GitHub Pages or hosting link)*
+**Live Preview:** [https://your-username.netlify.app](https://profile-bio.netlify.app/)
+
+---
+
+## How to Use This Repository
+
+### 1. Clone this repo
+
+You can either:
+
+- Download as ZIP and extract  
+- Or use Git:
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+
+---
+
+### 2. Customize Info
+
+Open the following file:
+
+```
+index.html
+```
+
+Edit the following sections:
+
+| Section | What to Change | Example |
+|--------|----------------|---------|
+| `<h2>John Doe</h2>` | Your name | Your name |
+| `<p><i class="fas fa-phone"></i> +1234567890</p>` | Phone number | Your number |
+| `<p><i class="fas fa-envelope"></i> email@example.com</p>` | Email address | Your email |
+| `<img src="profile.jpg"` | **Profile image URL** | Use postimages.org (see below) |
+| `cover.jpg` | Cover/banner photo | Upload to postimages.org |
+| Social Links | GitHub, AniList, Discord | Replace with your profile URLs |
+| About Section | Your intro/about | Write in your own words |
+
+---
+
+### 3. Upload Images (Profile + Cover)
+
+Use **https://postimages.org/**
+
+- Upload your profile photo and cover banner
+- Copy the **Direct Link**
+- Replace in `index.html`:
+
+```html
+<img src="https://i.postimg.cc/XYZ/your-photo.jpg" class="profile-pic" />
+```
+
+Same for cover photo:
+
+```css
+.cover-photo {
+  background: url('https://i.postimg.cc/XYZ/cover.jpg') no-repeat center/cover;
+}
+```
+
+---
+
+### 4. Deploy to Netlify
+
+**Step-by-step:**
+
+1. Visit: [https://app.netlify.com/](https://app.netlify.com/)
+2. Sign up or log in
+3. Click **"Add new site" > "Import from GitHub"**
+4. Connect your GitHub account
+5. Choose this repository
+6. Set **Build Command** = _leave blank_  
+   Set **Publish directory** = `./`
+7. Click **Deploy Site**
+
+Done! You'll get a live link like: `https://yourname.netlify.app`
+
+---
+
+## Optional: Edit `info.txt`
+
+This file downloads when clicking the download button.  
+You can write your contact info like this:
+
+```
+Name: John Doe
+Phone: +1234567890
+Email: email@example.com
+GitHub: github.com/username
+Location: Dhaka, Bangladesh
+```
 
 ---
 
 ## Screenshots
 
-![Preview](https://i.postimg.cc/WbkTT6HB/Digital-Visiting-Card.png)
+Here you can upload and organize screenshots inside a `screenshots/` folder.
+
+| Screen | View |
+|--------|------|
+| Mobile View | ![Mobile](screenshots/mobile.png) |
+| Theme Toggle | ![Dark](screenshots/theme-toggle.png) |
+| About Section | ![About](screenshots/about.png) |
 
 ---
 
-## Setup Instructions
+## Clone and Use
 
-1. Clone this repository  
-   ```bash
-   git clone https://github.com/crxnihab/digital-visiting-card.git
+Anyone can use this:
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+```
+
+Then open `index.html`, make your changes, and host it.
+
+---
+
+## License
+
+Free for personal use. You may edit, host and distribute your customized version.
+
+---
+
+### Need Help?
+
+Open an issue or message me directly!
