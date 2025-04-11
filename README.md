@@ -21,14 +21,14 @@ A clean, modern, and responsive digital visiting card built using HTML, CSS, and
 
 ## Live Preview
 
-> [Click here to preview](https://your-live-link.com)  
+> [Click here to preview](https://profile-bio.netlify.app/)  
 *(Replace with your actual live GitHub Pages or hosting link)*
 
 ---
 
 ## Screenshots
 
-![Preview](https://your-image-link.com/screenshot.jpg)
+![Preview](https://i.postimg.cc/WbkTT6HB/Digital-Visiting-Card.png)
 
 ---
 
