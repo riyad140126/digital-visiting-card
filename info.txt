@@ -1,0 +1,6 @@
+Name: John Doe
+Phone: +1234567890
+Email: email@example.com
+Location: Dhaka, Bangladesh
+Role: Software Engineer
+Website: yourwebsite.com
