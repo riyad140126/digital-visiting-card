@@ -67,13 +67,15 @@ Use **https://postimages.org/**
 
 - Upload your profile photo and cover banner
 - Copy the **Direct Link**
-- Replace in `index.html`:
+- Replace in `index.html` or `style.css`:
 
+Open the `intex.html` file and replace it.
 ```html
 <img src="https://i.postimg.cc/XYZ/your-photo.jpg" class="profile-pic" />
 ```
 
 Same for cover photo:
+Go to `style.css` file and replace it.
 
 ```css
 .cover-photo {
