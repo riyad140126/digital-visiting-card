@@ -1,6 +1,6 @@
-Name: John Doe
-Phone: +1234567890
-Email: email@example.com
-Location: Dhaka, Bangladesh
-Role: Software Engineer
-Website: yourwebsite.com
+Name: Nihab Ali
+Phone: +8801930486007
+Email: nihabcr@gmail.com
+Location: Bheramara, Dhaka, Bangladesh
+Role: Anime Lover
+Website: https://t.me/others_ott
