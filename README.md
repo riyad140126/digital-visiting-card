@@ -79,7 +79,9 @@ Go to `style.css` file and replace it.
 
 ```css
 .cover-photo {
-  background: url('https://i.postimg.cc/XYZ/cover.jpg') no-repeat center/cover;
+  height: 180px;
+  background: url('https://i.postimg.cc/xyz/cover.jpg') no-repeat center/cover;
+  border-radius: 0 0 12px 12px;
 }
 ```
 
