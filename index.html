@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Visiting Card</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="cover-photo"></div>
+
+    <div class="card">
+      <div class="card-top-buttons">
+        <button class="icon-btn" onclick="toggleMode()" aria-label="Toggle Theme">
+          <i id="theme-icon" class="fas fa-sun"></i>
+        </button>
+        <a href="info.txt" download class="icon-btn" aria-label="Download Info">
+          <i class="fas fa-download"></i>
+        </a>
+        <button class="icon-btn" onclick="sharePage()" aria-label="Share Page">
+          <i class="fas fa-share-alt"></i>
+        </button>
+      </div>
+
+      <img src="https://example.com/your-profile.jpg" alt="Profile Picture" class="profile-pic" />
+      <h2>John Doe</h2>
+      <p class="title">Software Engineer</p>
+      <p class="about">Building sleek and scalable web applications.</p>
+
+      <div class="contact-info">
+        <p><i class="fas fa-phone"></i> +1234567890</p>
+        <p><i class="fas fa-envelope"></i> email@example.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> Dhaka, Bangladesh</p>
+      </div>
+
+      <div class="social-icons">
+        <a href="https://github.com/username" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://anilist.co/user/username" target="_blank"><i class="fas fa-dragon"></i></a>
+        <a href="https://discordapp.com/users/username" target="_blank"><i class="fab fa-discord"></i></a>
+      </div>
+
+      <div class="buttons">
+        <a href="tel:+1234567890" class="btn"><i class="fas fa-phone"></i> Call</a>
+        <a href="mailto:email@example.com" class="btn"><i class="fas fa-envelope"></i> Email</a>
+      </div>
+    </div>
+
+    <section class="about-section">
+      <h3>About Me</h3>
+      <p>
+        I’m a passionate front-end developer with experience in responsive web design,
+        JavaScript, HTML, CSS, and modern frameworks. I enjoy bringing ideas to life
+        through beautiful and functional UI/UX.
+      </p>
+    </section>
+
+    <footer class="footer">
+      Built with love by John Doe — © 2025
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
