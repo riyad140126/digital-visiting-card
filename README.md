@@ -36,4 +36,4 @@ A clean, modern, and responsive digital visiting card built using HTML, CSS, and
 
 1. Clone this repository  
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/crxnihab/digital-visiting-card.git
