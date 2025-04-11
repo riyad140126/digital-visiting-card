@@ -51,11 +51,10 @@ Edit the following sections:
 
 | Section | What to Change | Example |
 |--------|----------------|---------|
-| `<h2>John Doe</h2>` | Your name | Your name |
-| `<p><i class="fas fa-phone"></i> +1234567890</p>` | Phone number | Your number |
-| `<p><i class="fas fa-envelope"></i> email@example.com</p>` | Email address | Your email |
-| `<img src="profile.jpg"` | **Profile image URL** | Use postimages.org (see below) |
-| `cover.jpg` | Cover/banner photo | Upload to postimages.org |
+| `<h2>John Doe</h2>` | Your name | Nihab |
+| `<p><i class="fas fa-phone"></i> +1234567890</p>` | Phone number | +1234567890 |
+| `<p><i class="fas fa-envelope"></i> email@example.com</p>` | Email address | `email@example.com` |
+| `<img src="profile.jpg"` | **Profile image URL** | Use postimages.org `https://i.postimg.cc/xyz/image.jpg` |
 | Social Links | GitHub, AniList, Discord | Replace with your profile URLs |
 | About Section | Your intro/about | Write in your own words |
 
