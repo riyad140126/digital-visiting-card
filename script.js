@@ -15,7 +15,7 @@ function sharePage() {
   if (navigator.share) {
     navigator.share({
       title: "My Digital Card",
-      text: "Check out my profile!",
+      text: "Check out my profile! - Made by Nihab ♥️",
       url: window.location.href
     })
     .then(() => console.log('Shared successfully'))
