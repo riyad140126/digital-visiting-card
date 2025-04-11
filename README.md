@@ -11,8 +11,8 @@ A sleek, responsive digital visiting card you can fully customize and deploy for
 - Download contact info
 - Share button
 - About section
-- Footer with location
-- Hosted-friendly (Netlify/others)
+- Footer
+- Hosted-friendly (Netlify)
 - Easy to customize
 
 ---
